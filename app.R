@@ -402,7 +402,7 @@ ui <- dashboardPage(
                    plotOutput("forecast", height = "500px")
                  ),
                  h3("Data collected influence the change of predictions.", style="text-align: center;"),
-                 h3("Now, you have he utmost responsibility to save the world! Declare to your comrades!", style="text-align: center;")
+                 h3("Now, you have the utmost responsibility to save the world! Declare to your comrades!", style="text-align: center;")
                  
                  # box(
                  #   title = "Summary of Forecast",
