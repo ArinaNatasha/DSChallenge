@@ -16,7 +16,6 @@ library(Hmisc)
 cf_continents <- read.csv("./Data/continent.csv", fileEncoding="UTF-8-BOM")
 cf_countries <- read.csv("./Data/countries.csv", fileEncoding="UTF-8-BOM")
 cf_global <- read.csv("./Data/world.csv", fileEncoding="UTF-8-BOM")
-# ./Data/world.csv
 
 ##### --- Define data ----
 tsdata <- ts(cf_global$co2, frequency = 1, start = c(1750))
